@@ -15,7 +15,8 @@ function App() {
     <div className="App">
       <main>
         <div className="search-box">
-          
+          <input className="search-bar" placeholder="Search ..." type="text"></input>
+
         </div>
         
       </main>
