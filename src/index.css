@@ -13,17 +13,24 @@ body {
 }
 
 .App{
-  background:url("./assets/cold-bg.jpg") center/cover fixed no-repeat;
-  transition: .4 ease-in-out;
+  background:url("./assets/cold.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  transition: .4s ease-in-out;
 }
 
-.App.warm{
+.App-warm{
   background-image: url("./assets/warm-bg.jpg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  transition: .4ease-in-out;
 }
 
 main{
   min-height: 100vh;
-  background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.75));
+  background-image: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.75));
   padding:25px;
 }
 
